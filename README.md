@@ -105,19 +105,19 @@ Response:
    git clone https://github.com/Arcfoz/inventory-app.git
    cd inventory-app
    ```
-2. Build and run with Docker:
+2. Database Migration:
+
+   ```
+  python .\migration.py migrate up
+  ```
+
+3. Build and run with Docker:
    ```
    docker build -t inventory-app .
    docker run -p 8000:8000 inventory-app
    ```
 
-## Database Migration
-
-- Create dummy data:
-  ```
-  python .\migration.py migrate up
-  ```
-- Clean data:
+4. Clean data:
   ```
   python .\migration.py migrate down
   ```
