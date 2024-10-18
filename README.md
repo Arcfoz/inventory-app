@@ -106,9 +106,9 @@ Response:
    cd inventory-app
    ```
 2. Database Migration:
-  ```
-  python .\migration.py migrate up
-  ```
+   ```
+   python .\migration.py migrate up
+   ```
 
 3. Build and run with Docker:
    ```
@@ -117,15 +117,15 @@ Response:
    ```
 
 4. Clean data:
-  ```
-  python .\migration.py migrate down
-  ```
+   ```
+   python .\migration.py migrate down
+   ```
 
 ## Testing
 
 Run tests with coverage:
-```
-python migration.py test tests/testing.py --coverage
-```
+  ```
+  python migration.py test tests/testing.py --coverage
+  ```
 
 Postman Collection: [Inventory API Tests](https://elements.getpostman.com/redirect?entityId=28552659-b7adb724-e437-4200-9934-7951317a864a&entityType=collection)
