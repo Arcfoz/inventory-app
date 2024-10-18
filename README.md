@@ -102,7 +102,7 @@ Response:
 
 1. Clone the repository:
    ```
-   git clone
+   git clone https://github.com/Arcfoz/inventory-app.git
    cd inventory-app
    ```
 2. Build and run with Docker:
