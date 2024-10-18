@@ -106,8 +106,7 @@ Response:
    cd inventory-app
    ```
 2. Database Migration:
-
-   ```
+  ```
   python .\migration.py migrate up
   ```
 
